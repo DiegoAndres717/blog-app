@@ -3,7 +3,7 @@ import {useSession} from 'next-auth/react'
 import {format} from 'timeago.js'
 import person from '../../../public/person.jpeg'
 import {BsTrash} from 'react-icons/bs'
-import classes from './comment.module.css'
+import classes from './Comment.module.css'
 import Image from 'next/image'
 
 const Comment = ({comment, setComments}) => {
