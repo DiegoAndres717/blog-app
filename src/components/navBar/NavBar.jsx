@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import classes from './navbar.module.css'
+import classes from './NavBar.module.css'
 import person from '../../../public/person.jpeg'
 import { AiOutlineClose } from 'react-icons/ai'
 import {signIn, signOut, useSession} from 'next-auth/react'
